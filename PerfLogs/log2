@@ -1,0 +1,1301 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls   s/call   s/call  name    
+ 15.62      0.35     0.35     4618     0.00     0.00  updateMapRendering
+ 11.16      0.60     0.25 22188114     0.00     0.00  getBlock
+  8.93      0.80     0.20     4618     0.00     0.00  updateAI
+  8.04      0.98     0.18  4186112     0.00     0.00  perlinNoise2D
+  7.59      1.15     0.17     4712     0.00     0.00  updateTimers
+  6.70      1.30     0.15     4618     0.00     0.00  updateController
+  5.80      1.43     0.13  6576064     0.00     0.00  getBackwall
+  3.12      1.50     0.07 16744448     0.00     0.00  dotProduct
+  2.68      1.56     0.06 12527635     0.00     0.00  getBlockOpacity
+  2.68      1.62     0.06    99071     0.00     0.00  exclusive
+  2.68      1.68     0.06     4712     0.00     0.00  processKeystates
+  2.68      1.74     0.06     4618     0.00     0.00  updateLevel
+  2.23      1.79     0.05     4618     0.00     0.00  applyConstraints
+  2.23      1.84     0.05     4618     0.00     0.00  processTerrainCols
+  2.23      1.89     0.05     4618     0.00     0.00  sap_updateEntities
+  2.23      1.94     0.05        1     0.05     2.20  mainLoop
+  1.79      1.98     0.04        1     0.04     0.34  generateCaves
+  1.79      2.02     0.04        1     0.04     0.47  generateTerrain
+  0.89      2.04     0.02  6134681     0.00     0.00  gradient
+  0.89      2.06     0.02  2724534     0.00     0.00  getBlockPtr
+  0.89      2.08     0.02   106538     0.00     0.00  drawTexture
+  0.89      2.10     0.02    42086     0.00     0.00  checkType
+  0.89      2.12     0.02     4618     0.00     0.00  clamp
+  0.89      2.14     0.02                             SDL_GetTicks
+  0.45      2.15     0.01   110832     0.00     0.00  getSlotIndex
+  0.45      2.16     0.01   101826     0.00     0.00  setTexturePos
+  0.45      2.17     0.01    36944     0.00     0.00  blitSlot
+  0.45      2.18     0.01     4712     0.00     0.00  isQuit
+  0.45      2.19     0.01     4712     0.00     0.00  startFrameTexturesRendering
+  0.45      2.20     0.01     4618     0.00     0.00  renderBlocScreen
+  0.45      2.21     0.01     4618     0.00     0.00  renderLevel
+  0.45      2.22     0.01     4616     0.00     0.00  isMouseRightUp
+  0.45      2.23     0.01     2866     0.00     0.00  isLeft
+  0.45      2.24     0.01                             SDL_GetMouseState
+  0.00      2.24     0.00  2030130     0.00     0.00  getBackwallPtr
+  0.00      2.24     0.00    49479     0.00     0.00  updateVBO
+  0.00      2.24     0.00    40235     0.00     0.00  setTextureClip
+  0.00      2.24     0.00    36944     0.00     0.00  blitItem
+  0.00      2.24     0.00    36944     0.00     0.00  setTextureSizeMul
+  0.00      2.24     0.00    32927     0.00     0.00  clampWorld
+  0.00      2.24     0.00    23090     0.00     0.00  blitHearth
+  0.00      2.24     0.00    23090     0.00     0.00  setTextureAlphaMod
+  0.00      2.24     0.00    16418     0.00     0.00  isTerrainChunckBlack
+  0.00      2.24     0.00    16418     0.00     0.00  isTerrainChunckEmpty
+  0.00      2.24     0.00    12192     0.00     0.00  perlinNoise
+  0.00      2.24     0.00     9427     0.00     0.00  destroyChuncks
+  0.00      2.24     0.00     9236     0.00     0.00  drawTextureGroup
+  0.00      2.24     0.00     9236     0.00     0.00  texSetFrameReset
+  0.00      2.24     0.00     8718     0.00     0.00  getChunck
+  0.00      2.24     0.00     5239     0.00     0.00  checkSolid
+  0.00      2.24     0.00     4950     0.00     0.00  getEdges
+  0.00      2.24     0.00     4950     0.00     0.00  getType
+  0.00      2.24     0.00     4916     0.00     0.00  max
+  0.00      2.24     0.00     4804     0.00     0.00  getTexture
+  0.00      2.24     0.00     4713     0.00     0.00  updateScreen
+  0.00      2.24     0.00     4712     0.00     0.00  blitBackground
+  0.00      2.24     0.00     4712     0.00     0.00  endFrameTexturesRendering
+  0.00      2.24     0.00     4618     0.00     0.00  blitEntity
+  0.00      2.24     0.00     4618     0.00     0.00  entityInBlock
+  0.00      2.24     0.00     4618     0.00     0.00  isHoldEditor
+  0.00      2.24     0.00     4618     0.00     0.00  isHoldInventory
+  0.00      2.24     0.00     4618     0.00     0.00  isHoldMap
+  0.00      2.24     0.00     4618     0.00     0.00  isMouseRightDown
+  0.00      2.24     0.00     4618     0.00     0.00  isRigth
+  0.00      2.24     0.00     4618     0.00     0.00  lerp
+  0.00      2.24     0.00     4618     0.00     0.00  loopf
+  0.00      2.24     0.00     4618     0.00     0.00  mouseWheelIncrement
+  0.00      2.24     0.00     4618     0.00     0.00  processEntityColls
+  0.00      2.24     0.00     4618     0.00     0.00  renderBackwallScreen
+  0.00      2.24     0.00     4618     0.00     0.00  sap_sortPoints
+  0.00      2.24     0.00     4618     0.00     0.00  texPackFrameReset
+  0.00      2.24     0.00     4618     0.00     0.00  updateChunckRenderer
+  0.00      2.24     0.00     4618     0.00     0.00  updateSelection
+  0.00      2.24     0.00     4617     0.00     0.00  isHoldMouseLeft
+  0.00      2.24     0.00     3250     0.00     0.00  startTimer
+  0.00      2.24     0.00     3247     0.00     0.00  getFrameClip
+  0.00      2.24     0.00     3247     0.00     0.00  getLoopingCount
+  0.00      2.24     0.00     2162     0.00     0.00  getTerrainHeight
+  0.00      2.24     0.00     1689     0.00     0.00  isJump
+  0.00      2.24     0.00     1491     0.00     0.00  checkTransparent
+  0.00      2.24     0.00      826     0.00     0.00  setTextureInGroup
+  0.00      2.24     0.00      186     0.00     0.00  blitButton
+  0.00      2.24     0.00      151     0.00     0.00  createVBOandVAO
+  0.00      2.24     0.00      146     0.00     0.00  destroyTexture
+  0.00      2.24     0.00      129     0.00     0.00  createEmptyTexture
+  0.00      2.24     0.00      118     0.00     0.00  checkName
+  0.00      2.24     0.00       93     0.00     0.00  isDown
+  0.00      2.24     0.00       93     0.00     0.00  isHoldSelect
+  0.00      2.24     0.00       93     0.00     0.00  isUp
+  0.00      2.24     0.00       93     0.00     0.00  renderMenu
+  0.00      2.24     0.00       93     0.00     0.00  updateMenu
+  0.00      2.24     0.00       92     0.00     0.00  clearTextureGroup
+  0.00      2.24     0.00       92     0.00     0.00  isMouseLeftDown
+  0.00      2.24     0.00       81     0.00     0.00  asPoint
+  0.00      2.24     0.00       81     0.00     0.00  getRandom
+  0.00      2.24     0.00       81     0.00     0.00  pasteModule
+  0.00      2.24     0.00       78     0.00     0.00  clampf
+  0.00      2.24     0.00       68     0.00     0.00  min
+  0.00      2.24     0.00       60     0.00     0.00  updateTexture
+  0.00      2.24     0.00       44     0.00     0.00  blitBreak
+  0.00      2.24     0.00       39     0.00     0.00  getRandomInRange
+  0.00      2.24     0.00       36     0.00     0.00  asIntl
+  0.00      2.24     0.00       31     0.00     0.00  asBooll
+  0.00      2.24     0.00       31     0.00     0.00  asStringl
+  0.00      2.24     0.00       27     0.00     0.00  initTimer
+  0.00      2.24     0.00       26     0.00     0.00  reset
+  0.00      2.24     0.00       26     0.00     0.00  stopTimer
+  0.00      2.24     0.00       21     0.00     0.00  updateRect
+  0.00      2.24     0.00       20     0.00     0.00  createTextureFromSurface
+  0.00      2.24     0.00       20     0.00     0.00  destroyTextureSet
+  0.00      2.24     0.00       19     0.00     0.00  createTextureFromFile
+  0.00      2.24     0.00       18     0.00     0.00  loop
+  0.00      2.24     0.00        7     0.00     0.00  setTextureColorMod
+  0.00      2.24     0.00        5     0.00     0.00  setTextureClipSize
+  0.00      2.24     0.00        4     0.00     0.00  createTextureSet
+  0.00      2.24     0.00        4     0.00     0.00  parseXML
+  0.00      2.24     0.00        3     0.00     0.00  destroyAnimation
+  0.00      2.24     0.00        3     0.00     0.00  destroyOGLRenderer
+  0.00      2.24     0.00        3     0.00     0.00  getFreeTimers
+  0.00      2.24     0.00        3     0.00     0.00  getRectl
+  0.00      2.24     0.00        3     0.00     0.00  initAnimation
+  0.00      2.24     0.00        3     0.00     0.00  loadModule
+  0.00      2.24     0.00        3     0.00     0.00  processExistingLightIntensity
+  0.00      2.24     0.00        3     0.00     0.00  setLightRect
+  0.00      2.24     0.00        3     0.00     0.00  setTextureFullscreen
+  0.00      2.24     0.00        3     0.00     0.00  updateLightSources
+  0.00      2.24     0.00        2     0.00     0.00  breakBloc
+  0.00      2.24     0.00        2     0.00     0.00  createButton
+  0.00      2.24     0.00        2     0.00     0.00  createTextureGroup
+  0.00      2.24     0.00        2     0.00     0.00  destroyTextureGroup
+  0.00      2.24     0.00        2     0.00     0.00  getCurrentItem
+  0.00      2.24     0.00        2     0.00     0.00  initPerlin
+  0.00      2.24     0.00        2     0.00     0.00  setTexSetColorMod
+  0.00      2.24     0.00        1     0.00     2.20  SDL_main
+  0.00      2.24     0.00        1     0.00     0.00  createGfxData
+  0.00      2.24     0.00        1     0.00     0.00  createOGLRenderer
+  0.00      2.24     0.00        1     0.00     0.00  createShaderFromSource
+  0.00      2.24     0.00        1     0.00     0.00  createStatus
+  0.00      2.24     0.00        1     0.00     0.00  deleteStatus
+  0.00      2.24     0.00        1     0.00     0.00  destroyChunckRenderer
+  0.00      2.24     0.00        1     0.00     0.00  destroyEditor
+  0.00      2.24     0.00        1     0.00     0.00  destroyEditorRenderer
+  0.00      2.24     0.00        1     0.00     0.00  destroyEntities
+  0.00      2.24     0.00        1     0.00     0.00  destroyExplorer
+  0.00      2.24     0.00        1     0.00     0.00  destroyGraphics
+  0.00      2.24     0.00        1     0.00     0.00  destroyInventory
+  0.00      2.24     0.00        1     0.00     0.00  destroyLevel
+  0.00      2.24     0.00        1     0.00     0.00  destroyMap
+  0.00      2.24     0.00        1     0.00     0.00  destroyMenu
+  0.00      2.24     0.00        1     0.00     0.00  destroyPerlinNoise2D
+  0.00      2.24     0.00        1     0.00     0.00  destroyPlayerControl
+  0.00      2.24     0.00        1     0.00     0.00  destroyShader
+  0.00      2.24     0.00        1     0.00     0.00  destroyTerrain
+  0.00      2.24     0.00        1     0.00     0.00  destroyTexturePack
+  0.00      2.24     0.00        1     0.00     0.00  generateBuildings
+  0.00      2.24     0.00        1     0.00     0.00  getFreeTimer
+  0.00      2.24     0.00        1     0.00     0.00  getGfxDatal
+  0.00      2.24     0.00        1     0.00     0.00  getStatusl
+  0.00      2.24     0.00        1     0.00     0.00  initBlockTypes
+  0.00      2.24     0.00        1     0.00     0.00  initCamera
+  0.00      2.24     0.00        1     0.00     0.00  initChunckRenderer
+  0.00      2.24     0.00        1     0.00     0.00  initEditor
+  0.00      2.24     0.00        1     0.00     0.00  initEditorRenderer
+  0.00      2.24     0.00        1     0.00     0.00  initEntities
+  0.00      2.24     0.00        1     0.00     0.00  initExplorer
+  0.00      2.24     0.00        1     0.00     0.00  initGraphics
+  0.00      2.24     0.00        1     0.00     0.00  initInventory
+  0.00      2.24     0.00        1     0.00     0.47  initLevel
+  0.00      2.24     0.00        1     0.00     0.00  initMap
+  0.00      2.24     0.00        1     0.00     0.00  initMapRenderer
+  0.00      2.24     0.00        1     0.00     0.00  initMapRendering
+  0.00      2.24     0.00        1     0.00     0.00  initMenu
+  0.00      2.24     0.00        1     0.00     0.00  initPerlin2D
+  0.00      2.24     0.00        1     0.00     0.00  initPlayerControl
+  0.00      2.24     0.00        1     0.00     0.47  initTerrain
+  0.00      2.24     0.00        1     0.00     0.00  initTexturePack
+  0.00      2.24     0.00        1     0.00     0.00  initTimerStack
+  0.00      2.24     0.00        1     0.00     0.00  loadShader
+  0.00      2.24     0.00        1     0.00     0.00  placeBloc
+  0.00      2.24     0.00        1     0.00     0.00  posToVect2
+  0.00      2.24     0.00        1     0.00     0.00  sap_create
+  0.00      2.24     0.00        1     0.00     0.00  sap_destroy
+  0.00      2.24     0.00        1     0.00     0.00  setTerrain
+  0.00      2.24     0.00        1     0.00     0.00  sizeToVect2
+  0.00      2.24     0.00        1     0.00     0.00  toVect2
+  0.00      2.24     0.00        1     0.00     0.00  useCurrentItem
+  0.00      2.24     0.00        1     0.00     0.00  useItem
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+ 
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this 
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 4 byte(s) for 0.45% of 2.24 seconds
+
+index % time    self  children    called     name
+                0.00    2.20       1/1           console_main [3]
+[1]     98.1    0.00    2.20       1         SDL_main [1]
+                0.05    2.15       1/1           mainLoop [2]
+                0.00    0.00       1/1           initExplorer [172]
+                0.00    0.00       1/1           destroyExplorer [152]
+-----------------------------------------------
+                0.05    2.15       1/1           SDL_main [1]
+[2]     98.1    0.05    2.15       1         mainLoop [2]
+                0.06    0.62    4618/4618        updateLevel [4]
+                0.35    0.33    4618/4618        updateMapRendering [5]
+                0.00    0.47       1/1           initLevel [7]
+                0.17    0.00    4712/4712        updateTimers [15]
+                0.01    0.07    4618/4618        renderLevel [17]
+                0.06    0.00    4712/4712        processKeystates [23]
+                0.01    0.00    4712/4712        isQuit [36]
+                0.00    0.00      93/93          renderMenu [45]
+                0.00    0.00       1/4712        startFrameTexturesRendering [37]
+                0.00    0.00       1/106538      drawTexture [26]
+                0.00    0.00    4713/4713        updateScreen [75]
+                0.00    0.00    4712/4916        max [73]
+                0.00    0.00      94/4712        endFrameTexturesRendering [77]
+                0.00    0.00      93/93          updateMenu [105]
+                0.00    0.00       1/4712        blitBackground [76]
+                0.00    0.00       1/1           setTerrain [187]
+                0.00    0.00       1/1           initCamera [167]
+-----------------------------------------------
+                                                 <spontaneous>
+[3]     98.1    0.00    2.20                 console_main [3]
+                0.00    2.20       1/1           SDL_main [1]
+-----------------------------------------------
+                0.06    0.62    4618/4618        mainLoop [2]
+[4]     30.4    0.06    0.62    4618         updateLevel [4]
+                0.05    0.18    4618/4618        applyConstraints [12]
+                0.20    0.00    4618/4618        updateAI [13]
+                0.15    0.04    4618/4618        updateController [14]
+                0.00    0.00    4618/4618        isHoldMap [80]
+                0.00    0.00    4618/4618        isHoldEditor [78]
+                0.00    0.00    4618/4618        processEntityColls [86]
+                0.00    0.00    4618/4618        loopf [84]
+                0.00    0.00      78/78          clampf [110]
+-----------------------------------------------
+                0.35    0.33    4618/4618        mainLoop [2]
+[5]     30.2    0.35    0.33    4618         updateMapRendering [5]
+                0.20    0.00 17494323/22188114     getBlock [10]
+                0.13    0.00 6575997/6576064     getBackwall [16]
+-----------------------------------------------
+                0.04    0.43       1/1           initTerrain [8]
+[6]     21.0    0.04    0.43       1         generateTerrain [6]
+                0.04    0.30       1/1           generateCaves [9]
+                0.06    0.00 11681582/12527635     getBlockOpacity [21]
+                0.02    0.00 6134681/6134681     gradient [25]
+                0.01    0.00 2026880/2724534     getBlockPtr [31]
+                0.00    0.00       1/1           generateBuildings [47]
+                0.00    0.00 2009582/2030130     getBackwallPtr [57]
+                0.00    0.00   12192/12192       perlinNoise [65]
+                0.00    0.00    7062/9427        destroyChuncks [66]
+                0.00    0.00       2/2           initPerlin [141]
+                0.00    0.00       1/32927       clampWorld [61]
+-----------------------------------------------
+                0.00    0.47       1/1           mainLoop [2]
+[7]     21.0    0.00    0.47       1         initLevel [7]
+                0.00    0.47       1/1           initTerrain [8]
+                0.00    0.00       1/1           initEntities [171]
+                0.00    0.00       1/1           sap_create [185]
+                0.00    0.00       1/1           initPlayerControl [180]
+-----------------------------------------------
+                0.00    0.47       1/1           initLevel [7]
+[8]     21.0    0.00    0.47       1         initTerrain [8]
+                0.04    0.43       1/1           generateTerrain [6]
+                0.00    0.00       1/1           initBlockTypes [166]
+-----------------------------------------------
+                0.04    0.30       1/1           generateTerrain [6]
+[9]     15.1    0.04    0.30       1         generateCaves [9]
+                0.18    0.07 4186112/4186112     perlinNoise2D [11]
+                0.05    0.00 4031488/22188114     getBlock [10]
+                0.00    0.00  477943/2724534     getBlockPtr [31]
+                0.00    0.00       1/1           initPerlin2D [179]
+                0.00    0.00       1/1           destroyPerlinNoise2D [158]
+-----------------------------------------------
+                0.00    0.00       1/22188114     placeBloc [52]
+                0.00    0.00       4/22188114     breakBloc [48]
+                0.00    0.00     109/22188114     updateController [14]
+                0.00    0.00    3267/22188114     processExistingLightIntensity [46]
+                0.00    0.00    5239/22188114     processTerrainCols [19]
+                0.00    0.00   42086/22188114     entityInBlock [20]
+                0.01    0.00  611597/22188114     propagateSunLight [33]
+                0.05    0.00 4031488/22188114     generateCaves [9]
+                0.20    0.00 17494323/22188114     updateMapRendering [5]
+[10]    11.2    0.25    0.00 22188114         getBlock [10]
+-----------------------------------------------
+                0.18    0.07 4186112/4186112     generateCaves [9]
+[11]    11.2    0.18    0.07 4186112         perlinNoise2D [11]
+                0.07    0.00 16744448/16744448     dotProduct [18]
+-----------------------------------------------
+                0.05    0.18    4618/4618        updateLevel [4]
+[12]    10.3    0.05    0.18    4618         applyConstraints [12]
+                0.05    0.02    4618/4618        processTerrainCols [19]
+                0.00    0.06    4618/4618        entityInBlock [20]
+                0.05    0.00    4618/4618        sap_updateEntities [24]
+                0.00    0.00    4618/4618        sap_sortPoints [88]
+-----------------------------------------------
+                0.20    0.00    4618/4618        updateLevel [4]
+[13]     8.9    0.20    0.00    4618         updateAI [13]
+-----------------------------------------------
+                0.15    0.04    4618/4618        updateLevel [4]
+[14]     8.5    0.15    0.04    4618         updateController [14]
+                0.00    0.02    4618/4618        updateSelection [29]
+                0.01    0.00    4616/4616        isMouseRightUp [39]
+                0.01    0.00    2866/2866        isLeft [40]
+                0.00    0.00       2/2           breakBloc [48]
+                0.00    0.00       1/1           useCurrentItem [53]
+                0.00    0.00      65/6576064     getBackwall [16]
+                0.00    0.00     109/22188114     getBlock [10]
+                0.00    0.00    4618/4618        isRigth [82]
+                0.00    0.00    4618/4618        isHoldInventory [79]
+                0.00    0.00    4618/4618        isMouseRightDown [81]
+                0.00    0.00    4617/4617        isHoldMouseLeft [90]
+                0.00    0.00    1689/1689        isJump [95]
+                0.00    0.00       3/3250        startTimer [91]
+                0.00    0.00       2/2           getCurrentItem [140]
+                0.00    0.00       2/27          initTimer [117]
+-----------------------------------------------
+                0.17    0.00    4712/4712        mainLoop [2]
+[15]     7.6    0.17    0.00    4712         updateTimers [15]
+-----------------------------------------------
+                0.00    0.00       2/6576064     breakBloc [48]
+                0.00    0.00      65/6576064     updateController [14]
+                0.13    0.00 6575997/6576064     updateMapRendering [5]
+[16]     5.8    0.13    0.00 6576064         getBackwall [16]
+-----------------------------------------------
+                0.01    0.07    4618/4618        mainLoop [2]
+[17]     3.6    0.01    0.07    4618         renderLevel [17]
+                0.02    0.00  106258/106538      drawTexture [26]
+                0.01    0.00   36944/36944       blitSlot [32]
+                0.01    0.00  110832/110832      getSlotIndex [34]
+                0.01    0.00    4618/4618        renderBlocScreen [38]
+                0.01    0.00    4618/4712        startFrameTexturesRendering [37]
+                0.00    0.00   36944/36944       blitItem [42]
+                0.00    0.00   23090/23090       blitHearth [43]
+                0.00    0.00    4618/4618        blitEntity [44]
+                0.00    0.00    4618/4618        updateChunckRenderer [50]
+                0.00    0.00      44/44          blitBreak [55]
+                0.00    0.00    4618/4712        blitBackground [76]
+                0.00    0.00    4618/4618        lerp [83]
+                0.00    0.00    4618/4618        renderBackwallScreen [87]
+                0.00    0.00    4618/4618        texPackFrameReset [89]
+                0.00    0.00    4618/4712        endFrameTexturesRendering [77]
+-----------------------------------------------
+                0.07    0.00 16744448/16744448     perlinNoise2D [11]
+[18]     3.1    0.07    0.00 16744448         dotProduct [18]
+-----------------------------------------------
+                0.05    0.02    4618/4618        applyConstraints [12]
+[19]     3.0    0.05    0.02    4618         processTerrainCols [19]
+                0.02    0.00   28389/99071       exclusive [22]
+                0.00    0.00    5239/22188114     getBlock [10]
+                0.00    0.00    5239/5239        checkSolid [70]
+-----------------------------------------------
+                0.00    0.06    4618/4618        applyConstraints [12]
+[20]     2.8    0.00    0.06    4618         entityInBlock [20]
+                0.04    0.00   70682/99071       exclusive [22]
+                0.02    0.00   42086/42086       checkType [27]
+                0.00    0.00   42086/22188114     getBlock [10]
+-----------------------------------------------
+                0.00    0.00    8810/12527635     processExistingLightIntensity [46]
+                0.00    0.00  837243/12527635     propagateSunLight [33]
+                0.06    0.00 11681582/12527635     generateTerrain [6]
+[21]     2.7    0.06    0.00 12527635         getBlockOpacity [21]
+-----------------------------------------------
+                0.02    0.00   28389/99071       processTerrainCols [19]
+                0.04    0.00   70682/99071       entityInBlock [20]
+[22]     2.7    0.06    0.00   99071         exclusive [22]
+-----------------------------------------------
+                0.06    0.00    4712/4712        mainLoop [2]
+[23]     2.7    0.06    0.00    4712         processKeystates [23]
+-----------------------------------------------
+                0.05    0.00    4618/4618        applyConstraints [12]
+[24]     2.2    0.05    0.00    4618         sap_updateEntities [24]
+-----------------------------------------------
+                0.02    0.00 6134681/6134681     generateTerrain [6]
+[25]     0.9    0.02    0.00 6134681         gradient [25]
+-----------------------------------------------
+                0.00    0.00       1/106538      mainLoop [2]
+                0.00    0.00     279/106538      renderMenu [45]
+                0.02    0.00  106258/106538      renderLevel [17]
+[26]     0.9    0.02    0.00  106538         drawTexture [26]
+-----------------------------------------------
+                0.02    0.00   42086/42086       entityInBlock [20]
+[27]     0.9    0.02    0.00   42086         checkType [27]
+-----------------------------------------------
+                0.02    0.00    4618/4618        updateSelection [29]
+[28]     0.9    0.02    0.00    4618         clamp [28]
+-----------------------------------------------
+                0.00    0.02    4618/4618        updateController [14]
+[29]     0.9    0.00    0.02    4618         updateSelection [29]
+                0.02    0.00    4618/4618        clamp [28]
+                0.00    0.00    4618/4618        mouseWheelIncrement [85]
+-----------------------------------------------
+                                                 <spontaneous>
+[30]     0.9    0.02    0.00                 SDL_GetTicks [30]
+-----------------------------------------------
+                0.00    0.00       1/2724534     placeBloc [52]
+                0.00    0.00       4/2724534     breakBloc [48]
+                0.00    0.00    1451/2724534     processExistingLightIntensity [46]
+                0.00    0.00    4955/2724534     generateBuildings [47]
+                0.00    0.00    6878/2724534     pasteModule [51]
+                0.00    0.00    8715/2724534     updateRect [49]
+                0.00    0.00  197707/2724534     propagateSunLight [33]
+                0.00    0.00  477943/2724534     generateCaves [9]
+                0.01    0.00 2026880/2724534     generateTerrain [6]
+[31]     0.9    0.02    0.00 2724534         getBlockPtr [31]
+-----------------------------------------------
+                0.01    0.00   36944/36944       renderLevel [17]
+[32]     0.6    0.01    0.00   36944         blitSlot [32]
+                0.00    0.00   36944/101826      setTexturePos [35]
+                0.00    0.00   36944/36944       setTextureSizeMul [60]
+-----------------------------------------------
+                                                 <spontaneous>
+[33]     0.6    0.00    0.01                 propagateSunLight [33]
+                0.01    0.00  611597/22188114     getBlock [10]
+                0.00    0.00  837243/12527635     getBlockOpacity [21]
+                0.00    0.00  197707/2724534     getBlockPtr [31]
+-----------------------------------------------
+                0.01    0.00  110832/110832      renderLevel [17]
+[34]     0.4    0.01    0.00  110832         getSlotIndex [34]
+-----------------------------------------------
+                0.00    0.00      44/101826      blitBreak [55]
+                0.00    0.00     186/101826      blitButton [54]
+                0.00    0.00    4618/101826      blitEntity [44]
+                0.00    0.00   23090/101826      blitHearth [43]
+                0.00    0.00   36944/101826      blitSlot [32]
+                0.00    0.00   36944/101826      blitItem [42]
+[35]     0.4    0.01    0.00  101826         setTexturePos [35]
+-----------------------------------------------
+                0.01    0.00    4712/4712        mainLoop [2]
+[36]     0.4    0.01    0.00    4712         isQuit [36]
+-----------------------------------------------
+                0.00    0.00       1/4712        mainLoop [2]
+                0.00    0.00      93/4712        renderMenu [45]
+                0.01    0.00    4618/4712        renderLevel [17]
+[37]     0.4    0.01    0.00    4712         startFrameTexturesRendering [37]
+-----------------------------------------------
+                0.01    0.00    4618/4618        renderLevel [17]
+[38]     0.4    0.01    0.00    4618         renderBlocScreen [38]
+                0.00    0.00    4618/9236        drawTextureGroup [67]
+-----------------------------------------------
+                0.01    0.00    4616/4616        updateController [14]
+[39]     0.4    0.01    0.00    4616         isMouseRightUp [39]
+-----------------------------------------------
+                0.01    0.00    2866/2866        updateController [14]
+[40]     0.4    0.01    0.00    2866         isLeft [40]
+-----------------------------------------------
+                                                 <spontaneous>
+[41]     0.4    0.01    0.00                 SDL_GetMouseState [41]
+-----------------------------------------------
+                0.00    0.00   36944/36944       renderLevel [17]
+[42]     0.2    0.00    0.00   36944         blitItem [42]
+                0.00    0.00   36944/101826      setTexturePos [35]
+                0.00    0.00   36944/40235       setTextureClip [59]
+-----------------------------------------------
+                0.00    0.00   23090/23090       renderLevel [17]
+[43]     0.1    0.00    0.00   23090         blitHearth [43]
+                0.00    0.00   23090/101826      setTexturePos [35]
+                0.00    0.00   23090/23090       setTextureAlphaMod [62]
+-----------------------------------------------
+                0.00    0.00    4618/4618        renderLevel [17]
+[44]     0.0    0.00    0.00    4618         blitEntity [44]
+                0.00    0.00    4618/101826      setTexturePos [35]
+                0.00    0.00    4618/4804        getTexture [74]
+-----------------------------------------------
+                0.00    0.00      93/93          mainLoop [2]
+[45]     0.0    0.00    0.00      93         renderMenu [45]
+                0.00    0.00      93/4712        startFrameTexturesRendering [37]
+                0.00    0.00     279/106538      drawTexture [26]
+                0.00    0.00     186/186         blitButton [54]
+                0.00    0.00      93/4712        blitBackground [76]
+-----------------------------------------------
+                0.00    0.00       1/3           placeBloc [52]
+                0.00    0.00       2/3           breakBloc [48]
+[46]     0.0    0.00    0.00       3         processExistingLightIntensity [46]
+                0.00    0.00    8810/12527635     getBlockOpacity [21]
+                0.00    0.00    3267/22188114     getBlock [10]
+                0.00    0.00    1451/2724534     getBlockPtr [31]
+                0.00    0.00    2365/9427        destroyChuncks [66]
+                0.00    0.00       3/32927       clampWorld [61]
+-----------------------------------------------
+                0.00    0.00       1/1           generateTerrain [6]
+[47]     0.0    0.00    0.00       1         generateBuildings [47]
+                0.00    0.00      81/81          pasteModule [51]
+                0.00    0.00    4955/2724534     getBlockPtr [31]
+                0.00    0.00    4955/2030130     getBackwallPtr [57]
+                0.00    0.00    2162/2162        getTerrainHeight [94]
+                0.00    0.00      81/81          getRandom [109]
+                0.00    0.00      81/81          asPoint [108]
+                0.00    0.00      39/39          getRandomInRange [113]
+                0.00    0.00       3/3           loadModule [133]
+-----------------------------------------------
+                0.00    0.00       2/2           updateController [14]
+[48]     0.0    0.00    0.00       2         breakBloc [48]
+                0.00    0.00       2/3           processExistingLightIntensity [46]
+                0.00    0.00       2/21          updateRect [49]
+                0.00    0.00       4/22188114     getBlock [10]
+                0.00    0.00       2/6576064     getBackwall [16]
+                0.00    0.00       4/2724534     getBlockPtr [31]
+                0.00    0.00       2/3           setLightRect [134]
+                0.00    0.00       2/3           updateLightSources [136]
+                0.00    0.00       2/32927       clampWorld [61]
+-----------------------------------------------
+                0.00    0.00       1/21          placeBloc [52]
+                0.00    0.00       2/21          breakBloc [48]
+                0.00    0.00      18/21          updateChunckRenderer [50]
+[49]     0.0    0.00    0.00      21         updateRect [49]
+                0.00    0.00    8715/2724534     getBlockPtr [31]
+                0.00    0.00    8715/2030130     getBackwallPtr [57]
+                0.00    0.00    8715/8718        getChunck [69]
+                0.00    0.00    4950/4950        getType [72]
+                0.00    0.00    4950/4950        getEdges [71]
+                0.00    0.00    1491/1491        checkTransparent [96]
+                0.00    0.00     204/4916        max [73]
+                0.00    0.00      68/68          min [111]
+                0.00    0.00      60/60          updateTexture [112]
+                0.00    0.00      34/16418       isTerrainChunckEmpty [64]
+                0.00    0.00      34/16418       isTerrainChunckBlack [63]
+-----------------------------------------------
+                0.00    0.00    4618/4618        renderLevel [17]
+[50]     0.0    0.00    0.00    4618         updateChunckRenderer [50]
+                0.00    0.00      18/21          updateRect [49]
+                0.00    0.00     826/826         setTextureInGroup [97]
+                0.00    0.00      92/92          clearTextureGroup [106]
+                0.00    0.00      18/18          loop [123]
+-----------------------------------------------
+                0.00    0.00      81/81          generateBuildings [47]
+[51]     0.0    0.00    0.00      81         pasteModule [51]
+                0.00    0.00    6878/2724534     getBlockPtr [31]
+                0.00    0.00    6878/2030130     getBackwallPtr [57]
+                0.00    0.00      81/32927       clampWorld [61]
+-----------------------------------------------
+                0.00    0.00       1/1           useCurrentItem [53]
+[52]     0.0    0.00    0.00       1         placeBloc [52]
+                0.00    0.00       1/3           processExistingLightIntensity [46]
+                0.00    0.00       1/21          updateRect [49]
+                0.00    0.00       1/22188114     getBlock [10]
+                0.00    0.00       1/2724534     getBlockPtr [31]
+                0.00    0.00       1/3           setLightRect [134]
+                0.00    0.00       1/3           updateLightSources [136]
+                0.00    0.00       1/32927       clampWorld [61]
+-----------------------------------------------
+                0.00    0.00       1/1           updateController [14]
+[53]     0.0    0.00    0.00       1         useCurrentItem [53]
+                0.00    0.00       1/1           placeBloc [52]
+                0.00    0.00       1/1           useItem [190]
+-----------------------------------------------
+                0.00    0.00     186/186         renderMenu [45]
+[54]     0.0    0.00    0.00     186         blitButton [54]
+                0.00    0.00     186/101826      setTexturePos [35]
+                0.00    0.00     186/4804        getTexture [74]
+-----------------------------------------------
+                0.00    0.00      44/44          renderLevel [17]
+[55]     0.0    0.00    0.00      44         blitBreak [55]
+                0.00    0.00      44/101826      setTexturePos [35]
+                0.00    0.00      44/40235       setTextureClip [59]
+-----------------------------------------------
+                0.00    0.00    4955/2030130     generateBuildings [47]
+                0.00    0.00    6878/2030130     pasteModule [51]
+                0.00    0.00    8715/2030130     updateRect [49]
+                0.00    0.00 2009582/2030130     generateTerrain [6]
+[57]     0.0    0.00    0.00 2030130         getBackwallPtr [57]
+-----------------------------------------------
+                0.00    0.00       3/49479       setTextureFullscreen [135]
+                0.00    0.00       5/49479       setTextureClipSize [125]
+                0.00    0.00    9236/49479       setTextureSizeMul [60]
+                0.00    0.00   40235/49479       setTextureClip [59]
+[58]     0.0    0.00    0.00   49479         updateVBO [58]
+-----------------------------------------------
+                0.00    0.00      44/40235       blitBreak [55]
+                0.00    0.00    3247/40235       getTexture [74]
+                0.00    0.00   36944/40235       blitItem [42]
+[59]     0.0    0.00    0.00   40235         setTextureClip [59]
+                0.00    0.00   40235/49479       updateVBO [58]
+-----------------------------------------------
+                0.00    0.00   36944/36944       blitSlot [32]
+[60]     0.0    0.00    0.00   36944         setTextureSizeMul [60]
+                0.00    0.00    9236/49479       updateVBO [58]
+-----------------------------------------------
+                0.00    0.00       1/32927       generateTerrain [6]
+                0.00    0.00       1/32927       placeBloc [52]
+                0.00    0.00       2/32927       breakBloc [48]
+                0.00    0.00       3/32927       setLightRect [134]
+                0.00    0.00       3/32927       processExistingLightIntensity [46]
+                0.00    0.00      81/32927       pasteModule [51]
+                0.00    0.00   16418/32927       isTerrainChunckEmpty [64]
+                0.00    0.00   16418/32927       isTerrainChunckBlack [63]
+[61]     0.0    0.00    0.00   32927         clampWorld [61]
+-----------------------------------------------
+                0.00    0.00   23090/23090       blitHearth [43]
+[62]     0.0    0.00    0.00   23090         setTextureAlphaMod [62]
+-----------------------------------------------
+                0.00    0.00      34/16418       updateRect [49]
+                0.00    0.00   16384/16418       setTerrain [187]
+[63]     0.0    0.00    0.00   16418         isTerrainChunckBlack [63]
+                0.00    0.00   16418/32927       clampWorld [61]
+-----------------------------------------------
+                0.00    0.00      34/16418       updateRect [49]
+                0.00    0.00   16384/16418       setTerrain [187]
+[64]     0.0    0.00    0.00   16418         isTerrainChunckEmpty [64]
+                0.00    0.00   16418/32927       clampWorld [61]
+-----------------------------------------------
+                0.00    0.00   12192/12192       generateTerrain [6]
+[65]     0.0    0.00    0.00   12192         perlinNoise [65]
+-----------------------------------------------
+                0.00    0.00    2365/9427        processExistingLightIntensity [46]
+                0.00    0.00    7062/9427        generateTerrain [6]
+[66]     0.0    0.00    0.00    9427         destroyChuncks [66]
+-----------------------------------------------
+                0.00    0.00    4618/9236        renderBlocScreen [38]
+                0.00    0.00    4618/9236        renderBackwallScreen [87]
+[67]     0.0    0.00    0.00    9236         drawTextureGroup [67]
+-----------------------------------------------
+                0.00    0.00    9236/9236        texPackFrameReset [89]
+[68]     0.0    0.00    0.00    9236         texSetFrameReset [68]
+-----------------------------------------------
+                0.00    0.00       3/8718        updateLightSources [136]
+                0.00    0.00    8715/8718        updateRect [49]
+[69]     0.0    0.00    0.00    8718         getChunck [69]
+-----------------------------------------------
+                0.00    0.00    5239/5239        processTerrainCols [19]
+[70]     0.0    0.00    0.00    5239         checkSolid [70]
+-----------------------------------------------
+                0.00    0.00    4950/4950        updateRect [49]
+[71]     0.0    0.00    0.00    4950         getEdges [71]
+-----------------------------------------------
+                0.00    0.00    4950/4950        updateRect [49]
+[72]     0.0    0.00    0.00    4950         getType [72]
+-----------------------------------------------
+                0.00    0.00     204/4916        updateRect [49]
+                0.00    0.00    4712/4916        mainLoop [2]
+[73]     0.0    0.00    0.00    4916         max [73]
+-----------------------------------------------
+                0.00    0.00     186/4804        blitButton [54]
+                0.00    0.00    4618/4804        blitEntity [44]
+[74]     0.0    0.00    0.00    4804         getTexture [74]
+                0.00    0.00    3247/3247        getFrameClip [92]
+                0.00    0.00    3247/40235       setTextureClip [59]
+                0.00    0.00      26/26          stopTimer [119]
+                0.00    0.00      26/26          reset [118]
+-----------------------------------------------
+                0.00    0.00    4713/4713        mainLoop [2]
+[75]     0.0    0.00    0.00    4713         updateScreen [75]
+-----------------------------------------------
+                0.00    0.00       1/4712        mainLoop [2]
+                0.00    0.00      93/4712        renderMenu [45]
+                0.00    0.00    4618/4712        renderLevel [17]
+[76]     0.0    0.00    0.00    4712         blitBackground [76]
+-----------------------------------------------
+                0.00    0.00      94/4712        mainLoop [2]
+                0.00    0.00    4618/4712        renderLevel [17]
+[77]     0.0    0.00    0.00    4712         endFrameTexturesRendering [77]
+-----------------------------------------------
+                0.00    0.00    4618/4618        updateLevel [4]
+[78]     0.0    0.00    0.00    4618         isHoldEditor [78]
+-----------------------------------------------
+                0.00    0.00    4618/4618        updateController [14]
+[79]     0.0    0.00    0.00    4618         isHoldInventory [79]
+-----------------------------------------------
+                0.00    0.00    4618/4618        updateLevel [4]
+[80]     0.0    0.00    0.00    4618         isHoldMap [80]
+-----------------------------------------------
+                0.00    0.00    4618/4618        updateController [14]
+[81]     0.0    0.00    0.00    4618         isMouseRightDown [81]
+-----------------------------------------------
+                0.00    0.00    4618/4618        updateController [14]
+[82]     0.0    0.00    0.00    4618         isRigth [82]
+-----------------------------------------------
+                0.00    0.00    4618/4618        renderLevel [17]
+[83]     0.0    0.00    0.00    4618         lerp [83]
+-----------------------------------------------
+                0.00    0.00    4618/4618        updateLevel [4]
+[84]     0.0    0.00    0.00    4618         loopf [84]
+-----------------------------------------------
+                0.00    0.00    4618/4618        updateSelection [29]
+[85]     0.0    0.00    0.00    4618         mouseWheelIncrement [85]
+-----------------------------------------------
+                0.00    0.00    4618/4618        updateLevel [4]
+[86]     0.0    0.00    0.00    4618         processEntityColls [86]
+-----------------------------------------------
+                0.00    0.00    4618/4618        renderLevel [17]
+[87]     0.0    0.00    0.00    4618         renderBackwallScreen [87]
+                0.00    0.00    4618/9236        drawTextureGroup [67]
+-----------------------------------------------
+                0.00    0.00    4618/4618        applyConstraints [12]
+[88]     0.0    0.00    0.00    4618         sap_sortPoints [88]
+-----------------------------------------------
+                0.00    0.00    4618/4618        renderLevel [17]
+[89]     0.0    0.00    0.00    4618         texPackFrameReset [89]
+                0.00    0.00    9236/9236        texSetFrameReset [68]
+-----------------------------------------------
+                0.00    0.00    4617/4617        updateController [14]
+[90]     0.0    0.00    0.00    4617         isHoldMouseLeft [90]
+-----------------------------------------------
+                0.00    0.00       3/3250        updateController [14]
+                0.00    0.00    3247/3250        getFrameClip [92]
+[91]     0.0    0.00    0.00    3250         startTimer [91]
+-----------------------------------------------
+                0.00    0.00    3247/3247        getTexture [74]
+[92]     0.0    0.00    0.00    3247         getFrameClip [92]
+                0.00    0.00    3247/3250        startTimer [91]
+                0.00    0.00    3247/3247        getLoopingCount [93]
+-----------------------------------------------
+                0.00    0.00    3247/3247        getFrameClip [92]
+[93]     0.0    0.00    0.00    3247         getLoopingCount [93]
+-----------------------------------------------
+                0.00    0.00    2162/2162        generateBuildings [47]
+[94]     0.0    0.00    0.00    2162         getTerrainHeight [94]
+-----------------------------------------------
+                0.00    0.00    1689/1689        updateController [14]
+[95]     0.0    0.00    0.00    1689         isJump [95]
+-----------------------------------------------
+                0.00    0.00    1491/1491        updateRect [49]
+[96]     0.0    0.00    0.00    1491         checkTransparent [96]
+-----------------------------------------------
+                0.00    0.00     826/826         updateChunckRenderer [50]
+[97]     0.0    0.00    0.00     826         setTextureInGroup [97]
+-----------------------------------------------
+                0.00    0.00       2/151         createTextureGroup [138]
+                0.00    0.00      20/151         createTextureFromSurface [120]
+                0.00    0.00     129/151         createEmptyTexture [100]
+[98]     0.0    0.00    0.00     151         createVBOandVAO [98]
+-----------------------------------------------
+                0.00    0.00       7/146         destroyTexturePack [162]
+                0.00    0.00      10/146         destroyTextureSet [121]
+                0.00    0.00     129/146         destroyChunckRenderer [148]
+[99]     0.0    0.00    0.00     146         destroyTexture [99]
+-----------------------------------------------
+                0.00    0.00       1/129         initMapRenderer [176]
+                0.00    0.00     128/129         initChunckRenderer [168]
+[100]    0.0    0.00    0.00     129         createEmptyTexture [100]
+                0.00    0.00     129/151         createVBOandVAO [98]
+-----------------------------------------------
+                0.00    0.00       1/118         initEntities [171]
+                0.00    0.00       2/118         initMenu [178]
+                0.00    0.00      13/118         initBlockTypes [166]
+                0.00    0.00      19/118         createTextureSet [126]
+                0.00    0.00      83/118         initTexturePack [181]
+[101]    0.0    0.00    0.00     118         checkName [101]
+-----------------------------------------------
+                0.00    0.00      93/93          updateMenu [105]
+[102]    0.0    0.00    0.00      93         isDown [102]
+-----------------------------------------------
+                0.00    0.00      93/93          updateMenu [105]
+[103]    0.0    0.00    0.00      93         isHoldSelect [103]
+-----------------------------------------------
+                0.00    0.00      93/93          updateMenu [105]
+[104]    0.0    0.00    0.00      93         isUp [104]
+-----------------------------------------------
+                0.00    0.00      93/93          mainLoop [2]
+[105]    0.0    0.00    0.00      93         updateMenu [105]
+                0.00    0.00      93/93          isDown [102]
+                0.00    0.00      93/93          isHoldSelect [103]
+                0.00    0.00      93/93          isUp [104]
+                0.00    0.00      92/92          isMouseLeftDown [107]
+-----------------------------------------------
+                0.00    0.00      92/92          updateChunckRenderer [50]
+[106]    0.0    0.00    0.00      92         clearTextureGroup [106]
+-----------------------------------------------
+                0.00    0.00      92/92          updateMenu [105]
+[107]    0.0    0.00    0.00      92         isMouseLeftDown [107]
+-----------------------------------------------
+                0.00    0.00      81/81          generateBuildings [47]
+[108]    0.0    0.00    0.00      81         asPoint [108]
+-----------------------------------------------
+                0.00    0.00      81/81          generateBuildings [47]
+[109]    0.0    0.00    0.00      81         getRandom [109]
+-----------------------------------------------
+                0.00    0.00      78/78          updateLevel [4]
+[110]    0.0    0.00    0.00      78         clampf [110]
+-----------------------------------------------
+                0.00    0.00      68/68          updateRect [49]
+[111]    0.0    0.00    0.00      68         min [111]
+-----------------------------------------------
+                0.00    0.00      60/60          updateRect [49]
+[112]    0.0    0.00    0.00      60         updateTexture [112]
+-----------------------------------------------
+                0.00    0.00      39/39          generateBuildings [47]
+[113]    0.0    0.00    0.00      39         getRandomInRange [113]
+-----------------------------------------------
+                0.00    0.00       2/36          initMenu [178]
+                0.00    0.00       6/36          createTextureSet [126]
+                0.00    0.00       8/36          initTexturePack [181]
+                0.00    0.00      20/36          initBlockTypes [166]
+[114]    0.0    0.00    0.00      36         asIntl [114]
+-----------------------------------------------
+                0.00    0.00       3/31          createTextureSet [126]
+                0.00    0.00      28/31          initBlockTypes [166]
+[115]    0.0    0.00    0.00      31         asBooll [115]
+-----------------------------------------------
+                0.00    0.00      12/31          createTextureSet [126]
+                0.00    0.00      19/31          initTexturePack [181]
+[116]    0.0    0.00    0.00      31         asStringl [116]
+-----------------------------------------------
+                0.00    0.00       1/27          initPlayerControl [180]
+                0.00    0.00       2/27          updateController [14]
+                0.00    0.00      24/27          initAnimation [132]
+[117]    0.0    0.00    0.00      27         initTimer [117]
+-----------------------------------------------
+                0.00    0.00      26/26          getTexture [74]
+[118]    0.0    0.00    0.00      26         reset [118]
+-----------------------------------------------
+                0.00    0.00      26/26          getTexture [74]
+[119]    0.0    0.00    0.00      26         stopTimer [119]
+-----------------------------------------------
+                0.00    0.00       1/20          initChunckRenderer [168]
+                0.00    0.00       7/20          initTexturePack [181]
+                0.00    0.00      12/20          createTextureSet [126]
+[120]    0.0    0.00    0.00      20         createTextureFromSurface [120]
+                0.00    0.00      20/151         createVBOandVAO [98]
+-----------------------------------------------
+                0.00    0.00      20/20          destroyTexturePack [162]
+[121]    0.0    0.00    0.00      20         destroyTextureSet [121]
+                0.00    0.00      10/146         destroyTexture [99]
+                0.00    0.00       3/3           destroyAnimation [128]
+-----------------------------------------------
+                0.00    0.00       7/19          initTexturePack [181]
+                0.00    0.00      12/19          createTextureSet [126]
+[122]    0.0    0.00    0.00      19         createTextureFromFile [122]
+-----------------------------------------------
+                0.00    0.00      18/18          updateChunckRenderer [50]
+[123]    0.0    0.00    0.00      18         loop [123]
+-----------------------------------------------
+                0.00    0.00       1/7           initTexturePack [181]
+                0.00    0.00       6/7           setTexSetColorMod [142]
+[124]    0.0    0.00    0.00       7         setTextureColorMod [124]
+-----------------------------------------------
+                0.00    0.00       2/5           initTexturePack [181]
+                0.00    0.00       3/5           createTextureSet [126]
+[125]    0.0    0.00    0.00       5         setTextureClipSize [125]
+                0.00    0.00       5/49479       updateVBO [58]
+-----------------------------------------------
+                0.00    0.00       4/4           initTexturePack [181]
+[126]    0.0    0.00    0.00       4         createTextureSet [126]
+                0.00    0.00      19/118         checkName [101]
+                0.00    0.00      12/31          asStringl [116]
+                0.00    0.00      12/20          createTextureFromSurface [120]
+                0.00    0.00      12/19          createTextureFromFile [122]
+                0.00    0.00       6/36          asIntl [114]
+                0.00    0.00       3/5           setTextureClipSize [125]
+                0.00    0.00       3/31          asBooll [115]
+                0.00    0.00       3/3           initAnimation [132]
+-----------------------------------------------
+                0.00    0.00       1/4           initEntities [171]
+                0.00    0.00       1/4           initTexturePack [181]
+                0.00    0.00       1/4           initMenu [178]
+                0.00    0.00       1/4           initBlockTypes [166]
+[127]    0.0    0.00    0.00       4         parseXML [127]
+-----------------------------------------------
+                0.00    0.00       3/3           destroyTextureSet [121]
+[128]    0.0    0.00    0.00       3         destroyAnimation [128]
+-----------------------------------------------
+                0.00    0.00       1/3           destroyGraphics [153]
+                0.00    0.00       2/3           loadShader [183]
+[129]    0.0    0.00    0.00       3         destroyOGLRenderer [129]
+                0.00    0.00       1/1           destroyShader [160]
+-----------------------------------------------
+                0.00    0.00       3/3           initAnimation [132]
+[130]    0.0    0.00    0.00       3         getFreeTimers [130]
+-----------------------------------------------
+                0.00    0.00       1/3           initEntities [171]
+                0.00    0.00       2/3           initMenu [178]
+[131]    0.0    0.00    0.00       3         getRectl [131]
+-----------------------------------------------
+                0.00    0.00       3/3           createTextureSet [126]
+[132]    0.0    0.00    0.00       3         initAnimation [132]
+                0.00    0.00      24/27          initTimer [117]
+                0.00    0.00       3/3           getFreeTimers [130]
+-----------------------------------------------
+                0.00    0.00       3/3           generateBuildings [47]
+[133]    0.0    0.00    0.00       3         loadModule [133]
+-----------------------------------------------
+                0.00    0.00       1/3           placeBloc [52]
+                0.00    0.00       2/3           breakBloc [48]
+[134]    0.0    0.00    0.00       3         setLightRect [134]
+                0.00    0.00       3/32927       clampWorld [61]
+-----------------------------------------------
+                0.00    0.00       3/3           initTexturePack [181]
+[135]    0.0    0.00    0.00       3         setTextureFullscreen [135]
+                0.00    0.00       3/49479       updateVBO [58]
+-----------------------------------------------
+                0.00    0.00       1/3           placeBloc [52]
+                0.00    0.00       2/3           breakBloc [48]
+[136]    0.0    0.00    0.00       3         updateLightSources [136]
+                0.00    0.00       3/8718        getChunck [69]
+-----------------------------------------------
+                0.00    0.00       2/2           initMenu [178]
+[137]    0.0    0.00    0.00       2         createButton [137]
+-----------------------------------------------
+                0.00    0.00       2/2           initChunckRenderer [168]
+[138]    0.0    0.00    0.00       2         createTextureGroup [138]
+                0.00    0.00       2/151         createVBOandVAO [98]
+-----------------------------------------------
+                0.00    0.00       2/2           destroyChunckRenderer [148]
+[139]    0.0    0.00    0.00       2         destroyTextureGroup [139]
+-----------------------------------------------
+                0.00    0.00       2/2           updateController [14]
+[140]    0.0    0.00    0.00       2         getCurrentItem [140]
+-----------------------------------------------
+                0.00    0.00       2/2           generateTerrain [6]
+[141]    0.0    0.00    0.00       2         initPerlin [141]
+-----------------------------------------------
+                0.00    0.00       2/2           initTexturePack [181]
+[142]    0.0    0.00    0.00       2         setTexSetColorMod [142]
+                0.00    0.00       6/7           setTextureColorMod [124]
+-----------------------------------------------
+                0.00    0.00       1/1           getGfxDatal [164]
+[143]    0.0    0.00    0.00       1         createGfxData [143]
+-----------------------------------------------
+                0.00    0.00       1/1           initGraphics [173]
+[144]    0.0    0.00    0.00       1         createOGLRenderer [144]
+                0.00    0.00       1/1           createShaderFromSource [145]
+                0.00    0.00       1/1           loadShader [183]
+-----------------------------------------------
+                0.00    0.00       1/1           createOGLRenderer [144]
+[145]    0.0    0.00    0.00       1         createShaderFromSource [145]
+-----------------------------------------------
+                0.00    0.00       1/1           getStatusl [165]
+[146]    0.0    0.00    0.00       1         createStatus [146]
+-----------------------------------------------
+                0.00    0.00       1/1           destroyEntities [151]
+[147]    0.0    0.00    0.00       1         deleteStatus [147]
+-----------------------------------------------
+                0.00    0.00       1/1           destroyGraphics [153]
+[148]    0.0    0.00    0.00       1         destroyChunckRenderer [148]
+                0.00    0.00     129/146         destroyTexture [99]
+                0.00    0.00       2/2           destroyTextureGroup [139]
+-----------------------------------------------
+                0.00    0.00       1/1           destroyExplorer [152]
+[149]    0.0    0.00    0.00       1         destroyEditor [149]
+-----------------------------------------------
+                0.00    0.00       1/1           destroyGraphics [153]
+[150]    0.0    0.00    0.00       1         destroyEditorRenderer [150]
+-----------------------------------------------
+                0.00    0.00       1/1           destroyLevel [155]
+[151]    0.0    0.00    0.00       1         destroyEntities [151]
+                0.00    0.00       1/1           deleteStatus [147]
+-----------------------------------------------
+                0.00    0.00       1/1           SDL_main [1]
+[152]    0.0    0.00    0.00       1         destroyExplorer [152]
+                0.00    0.00       1/1           destroyPlayerControl [159]
+                0.00    0.00       1/1           destroyLevel [155]
+                0.00    0.00       1/1           destroyEditor [149]
+                0.00    0.00       1/1           destroyMap [156]
+                0.00    0.00       1/1           destroyMenu [157]
+                0.00    0.00       1/1           destroyGraphics [153]
+-----------------------------------------------
+                0.00    0.00       1/1           destroyExplorer [152]
+[153]    0.0    0.00    0.00       1         destroyGraphics [153]
+                0.00    0.00       1/1           destroyEditorRenderer [150]
+                0.00    0.00       1/1           destroyChunckRenderer [148]
+                0.00    0.00       1/1           destroyTexturePack [162]
+                0.00    0.00       1/3           destroyOGLRenderer [129]
+-----------------------------------------------
+                0.00    0.00       1/1           destroyPlayerControl [159]
+[154]    0.0    0.00    0.00       1         destroyInventory [154]
+-----------------------------------------------
+                0.00    0.00       1/1           destroyExplorer [152]
+[155]    0.0    0.00    0.00       1         destroyLevel [155]
+                0.00    0.00       1/1           sap_destroy [186]
+                0.00    0.00       1/1           destroyEntities [151]
+                0.00    0.00       1/1           destroyTerrain [161]
+-----------------------------------------------
+                0.00    0.00       1/1           destroyExplorer [152]
+[156]    0.0    0.00    0.00       1         destroyMap [156]
+-----------------------------------------------
+                0.00    0.00       1/1           destroyExplorer [152]
+[157]    0.0    0.00    0.00       1         destroyMenu [157]
+-----------------------------------------------
+                0.00    0.00       1/1           generateCaves [9]
+[158]    0.0    0.00    0.00       1         destroyPerlinNoise2D [158]
+-----------------------------------------------
+                0.00    0.00       1/1           destroyExplorer [152]
+[159]    0.0    0.00    0.00       1         destroyPlayerControl [159]
+                0.00    0.00       1/1           destroyInventory [154]
+-----------------------------------------------
+                0.00    0.00       1/1           destroyOGLRenderer [129]
+[160]    0.0    0.00    0.00       1         destroyShader [160]
+-----------------------------------------------
+                0.00    0.00       1/1           destroyLevel [155]
+[161]    0.0    0.00    0.00       1         destroyTerrain [161]
+-----------------------------------------------
+                0.00    0.00       1/1           destroyGraphics [153]
+[162]    0.0    0.00    0.00       1         destroyTexturePack [162]
+                0.00    0.00      20/20          destroyTextureSet [121]
+                0.00    0.00       7/146         destroyTexture [99]
+-----------------------------------------------
+                0.00    0.00       1/1           initPlayerControl [180]
+[163]    0.0    0.00    0.00       1         getFreeTimer [163]
+-----------------------------------------------
+                0.00    0.00       1/1           initEntities [171]
+[164]    0.0    0.00    0.00       1         getGfxDatal [164]
+                0.00    0.00       1/1           createGfxData [143]
+-----------------------------------------------
+                0.00    0.00       1/1           initEntities [171]
+[165]    0.0    0.00    0.00       1         getStatusl [165]
+                0.00    0.00       1/1           createStatus [146]
+-----------------------------------------------
+                0.00    0.00       1/1           initTerrain [8]
+[166]    0.0    0.00    0.00       1         initBlockTypes [166]
+                0.00    0.00      28/31          asBooll [115]
+                0.00    0.00      20/36          asIntl [114]
+                0.00    0.00      13/118         checkName [101]
+                0.00    0.00       1/4           parseXML [127]
+-----------------------------------------------
+                0.00    0.00       1/1           mainLoop [2]
+[167]    0.0    0.00    0.00       1         initCamera [167]
+-----------------------------------------------
+                0.00    0.00       1/1           initGraphics [173]
+[168]    0.0    0.00    0.00       1         initChunckRenderer [168]
+                0.00    0.00     128/129         createEmptyTexture [100]
+                0.00    0.00       2/2           createTextureGroup [138]
+                0.00    0.00       1/20          createTextureFromSurface [120]
+-----------------------------------------------
+                0.00    0.00       1/1           initExplorer [172]
+[169]    0.0    0.00    0.00       1         initEditor [169]
+-----------------------------------------------
+                0.00    0.00       1/1           initGraphics [173]
+[170]    0.0    0.00    0.00       1         initEditorRenderer [170]
+-----------------------------------------------
+                0.00    0.00       1/1           initLevel [7]
+[171]    0.0    0.00    0.00       1         initEntities [171]
+                0.00    0.00       1/4           parseXML [127]
+                0.00    0.00       1/118         checkName [101]
+                0.00    0.00       1/3           getRectl [131]
+                0.00    0.00       1/1           getGfxDatal [164]
+                0.00    0.00       1/1           getStatusl [165]
+                0.00    0.00       1/1           posToVect2 [184]
+                0.00    0.00       1/1           sizeToVect2 [188]
+                0.00    0.00       1/1           toVect2 [189]
+-----------------------------------------------
+                0.00    0.00       1/1           SDL_main [1]
+[172]    0.0    0.00    0.00       1         initExplorer [172]
+                0.00    0.00       1/1           initTimerStack [182]
+                0.00    0.00       1/1           initGraphics [173]
+                0.00    0.00       1/1           initMenu [178]
+                0.00    0.00       1/1           initMap [175]
+                0.00    0.00       1/1           initEditor [169]
+                0.00    0.00       1/1           initMapRendering [177]
+-----------------------------------------------
+                0.00    0.00       1/1           initExplorer [172]
+[173]    0.0    0.00    0.00       1         initGraphics [173]
+                0.00    0.00       1/1           createOGLRenderer [144]
+                0.00    0.00       1/1           initTexturePack [181]
+                0.00    0.00       1/1           initChunckRenderer [168]
+                0.00    0.00       1/1           initEditorRenderer [170]
+-----------------------------------------------
+                0.00    0.00       1/1           initPlayerControl [180]
+[174]    0.0    0.00    0.00       1         initInventory [174]
+-----------------------------------------------
+                0.00    0.00       1/1           initExplorer [172]
+[175]    0.0    0.00    0.00       1         initMap [175]
+-----------------------------------------------
+                0.00    0.00       1/1           initMapRendering [177]
+[176]    0.0    0.00    0.00       1         initMapRenderer [176]
+                0.00    0.00       1/129         createEmptyTexture [100]
+-----------------------------------------------
+                0.00    0.00       1/1           initExplorer [172]
+[177]    0.0    0.00    0.00       1         initMapRendering [177]
+                0.00    0.00       1/1           initMapRenderer [176]
+-----------------------------------------------
+                0.00    0.00       1/1           initExplorer [172]
+[178]    0.0    0.00    0.00       1         initMenu [178]
+                0.00    0.00       2/118         checkName [101]
+                0.00    0.00       2/36          asIntl [114]
+                0.00    0.00       2/3           getRectl [131]
+                0.00    0.00       2/2           createButton [137]
+                0.00    0.00       1/4           parseXML [127]
+-----------------------------------------------
+                0.00    0.00       1/1           generateCaves [9]
+[179]    0.0    0.00    0.00       1         initPerlin2D [179]
+-----------------------------------------------
+                0.00    0.00       1/1           initLevel [7]
+[180]    0.0    0.00    0.00       1         initPlayerControl [180]
+                0.00    0.00       1/1           initInventory [174]
+                0.00    0.00       1/1           getFreeTimer [163]
+                0.00    0.00       1/27          initTimer [117]
+-----------------------------------------------
+                0.00    0.00       1/1           initGraphics [173]
+[181]    0.0    0.00    0.00       1         initTexturePack [181]
+                0.00    0.00      83/118         checkName [101]
+                0.00    0.00      19/31          asStringl [116]
+                0.00    0.00       8/36          asIntl [114]
+                0.00    0.00       7/20          createTextureFromSurface [120]
+                0.00    0.00       7/19          createTextureFromFile [122]
+                0.00    0.00       4/4           createTextureSet [126]
+                0.00    0.00       3/3           setTextureFullscreen [135]
+                0.00    0.00       2/5           setTextureClipSize [125]
+                0.00    0.00       2/2           setTexSetColorMod [142]
+                0.00    0.00       1/4           parseXML [127]
+                0.00    0.00       1/7           setTextureColorMod [124]
+-----------------------------------------------
+                0.00    0.00       1/1           initExplorer [172]
+[182]    0.0    0.00    0.00       1         initTimerStack [182]
+-----------------------------------------------
+                0.00    0.00       1/1           createOGLRenderer [144]
+[183]    0.0    0.00    0.00       1         loadShader [183]
+                0.00    0.00       2/3           destroyOGLRenderer [129]
+-----------------------------------------------
+                0.00    0.00       1/1           initEntities [171]
+[184]    0.0    0.00    0.00       1         posToVect2 [184]
+-----------------------------------------------
+                0.00    0.00       1/1           initLevel [7]
+[185]    0.0    0.00    0.00       1         sap_create [185]
+-----------------------------------------------
+                0.00    0.00       1/1           destroyLevel [155]
+[186]    0.0    0.00    0.00       1         sap_destroy [186]
+-----------------------------------------------
+                0.00    0.00       1/1           mainLoop [2]
+[187]    0.0    0.00    0.00       1         setTerrain [187]
+                0.00    0.00   16384/16418       isTerrainChunckEmpty [64]
+                0.00    0.00   16384/16418       isTerrainChunckBlack [63]
+-----------------------------------------------
+                0.00    0.00       1/1           initEntities [171]
+[188]    0.0    0.00    0.00       1         sizeToVect2 [188]
+-----------------------------------------------
+                0.00    0.00       1/1           initEntities [171]
+[189]    0.0    0.00    0.00       1         toVect2 [189]
+-----------------------------------------------
+                0.00    0.00       1/1           useCurrentItem [53]
+[190]    0.0    0.00    0.00       1         useItem [190]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+
+Index by function name
+
+  [41] SDL_GetMouseState      [47] generateBuildings      [83] lerp
+  [30] SDL_GetTicks            [9] generateCaves         [133] loadModule
+   [1] SDL_main                [6] generateTerrain       [183] loadShader
+  [12] applyConstraints       [16] getBackwall           [123] loop
+ [115] asBooll                [57] getBackwallPtr         [84] loopf
+ [114] asIntl                 [10] getBlock                [2] mainLoop
+ [108] asPoint                [21] getBlockOpacity        [73] max
+ [116] asStringl              [31] getBlockPtr           [111] min
+  [76] blitBackground         [69] getChunck              [85] mouseWheelIncrement
+  [55] blitBreak             [140] getCurrentItem        [127] parseXML
+  [54] blitButton             [71] getEdges               [51] pasteModule
+  [44] blitEntity             [92] getFrameClip           [65] perlinNoise
+  [43] blitHearth            [163] getFreeTimer           [11] perlinNoise2D
+  [42] blitItem              [130] getFreeTimers          [52] placeBloc
+  [32] blitSlot              [164] getGfxDatal           [184] posToVect2
+  [48] breakBloc              [93] getLoopingCount        [86] processEntityColls
+ [101] checkName             [109] getRandom              [46] processExistingLightIntensity
+  [70] checkSolid            [113] getRandomInRange       [23] processKeystates
+  [96] checkTransparent      [131] getRectl               [19] processTerrainCols
+  [27] checkType              [34] getSlotIndex           [87] renderBackwallScreen
+  [28] clamp                 [165] getStatusl             [38] renderBlocScreen
+  [61] clampWorld             [94] getTerrainHeight       [17] renderLevel
+ [110] clampf                 [74] getTexture             [45] renderMenu
+ [106] clearTextureGroup      [72] getType               [118] reset
+ [137] createButton           [25] gradient              [185] sap_create
+ [100] createEmptyTexture    [132] initAnimation         [186] sap_destroy
+ [143] createGfxData         [166] initBlockTypes         [88] sap_sortPoints
+ [144] createOGLRenderer     [167] initCamera             [24] sap_updateEntities
+ [145] createShaderFromSource [168] initChunckRenderer   [134] setLightRect
+ [146] createStatus          [169] initEditor            [187] setTerrain
+ [122] createTextureFromFile [170] initEditorRenderer    [142] setTexSetColorMod
+ [120] createTextureFromSurface [171] initEntities        [62] setTextureAlphaMod
+ [138] createTextureGroup    [172] initExplorer           [59] setTextureClip
+ [126] createTextureSet      [173] initGraphics          [125] setTextureClipSize
+  [98] createVBOandVAO       [174] initInventory         [124] setTextureColorMod
+ [147] deleteStatus            [7] initLevel             [135] setTextureFullscreen
+ [128] destroyAnimation      [175] initMap                [97] setTextureInGroup
+ [148] destroyChunckRenderer [176] initMapRenderer        [35] setTexturePos
+  [66] destroyChuncks        [177] initMapRendering       [60] setTextureSizeMul
+ [149] destroyEditor         [178] initMenu              [188] sizeToVect2
+ [150] destroyEditorRenderer [141] initPerlin             [37] startFrameTexturesRendering
+ [151] destroyEntities       [179] initPerlin2D           [91] startTimer
+ [152] destroyExplorer       [180] initPlayerControl     [119] stopTimer
+ [153] destroyGraphics         [8] initTerrain            [89] texPackFrameReset
+ [154] destroyInventory      [181] initTexturePack        [68] texSetFrameReset
+ [155] destroyLevel          [117] initTimer             [189] toVect2
+ [156] destroyMap            [182] initTimerStack         [13] updateAI
+ [157] destroyMenu           [102] isDown                 [50] updateChunckRenderer
+ [129] destroyOGLRenderer     [78] isHoldEditor           [14] updateController
+ [158] destroyPerlinNoise2D   [79] isHoldInventory         [4] updateLevel
+ [159] destroyPlayerControl   [80] isHoldMap             [136] updateLightSources
+ [160] destroyShader          [90] isHoldMouseLeft         [5] updateMapRendering
+ [161] destroyTerrain        [103] isHoldSelect          [105] updateMenu
+  [99] destroyTexture         [95] isJump                 [49] updateRect
+ [139] destroyTextureGroup    [40] isLeft                 [75] updateScreen
+ [162] destroyTexturePack    [107] isMouseLeftDown        [29] updateSelection
+ [121] destroyTextureSet      [81] isMouseRightDown      [112] updateTexture
+  [18] dotProduct             [39] isMouseRightUp         [15] updateTimers
+  [26] drawTexture            [36] isQuit                 [58] updateVBO
+  [67] drawTextureGroup       [82] isRigth                [53] useCurrentItem
+  [77] endFrameTexturesRendering [63] isTerrainChunckBlack [190] useItem
+  [20] entityInBlock          [64] isTerrainChunckEmpty
+  [22] exclusive             [104] isUp

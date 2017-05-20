@@ -1,0 +1,28 @@
+Average manual: (100 samples)
+Create surface : 5.35
+Update texture : 1.28
+
+Average blit: (100 samples)
+Create surface : 5.18
+Update texture : 1.34
+
+Average lower blit: (100 samples)
+Create surface : 5.17
+Update texture : 1.38
+
+/****** Neutral ********/
+
+Average manual: (50 samples)
+Create surface : 2.32 - 2.36
+Update texture : 1.46 - 1.56
+
+Average blit: (50 samples)
+Create surface : 2.16 - 2.2
+Update texture : 1.38 - 1.44
+
+Average lower blit: (50 samples)
+Create surface : 2.14
+Update texture : 1.42
+
+
+Loading defines : 496:165

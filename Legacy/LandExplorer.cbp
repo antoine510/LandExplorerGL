@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="LandExplorerGL" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/LandExplorer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-Wno-unused-parameter" />
+					<Add option="-DDEBUG" />
+					<Add option='-DSDL_ASSERT_LEVEL=&quot;2&quot;' />
+				</Compiler>
+				<Linker>
+					<Add library="mingw32" />
+					<Add library="opengl32" />
+					<Add library="SDL2main" />
+					<Add library="SDL2.dll" />
+					<Add library="glew32" />
+					<Add library="glew32.dll" />
+					<Add library="SDL2_image.dll" />
+					<Add library="SDL2_ttf.dll" />
+					<Add library="fmodex" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/LandExplorer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option='-DSDL_ASSERT_LEVEL=&quot;1&quot;' />
+				</Compiler>
+				<Linker>
+					<Add library="mingw32" />
+					<Add library="opengl32" />
+					<Add library="SDL2main" />
+					<Add library="SDL2.dll" />
+					<Add library="glew32" />
+					<Add library="glew32.dll" />
+					<Add library="SDL2_image.dll" />
+					<Add library="SDL2_ttf.dll" />
+					<Add library="fmodex" />
+				</Linker>
+			</Target>
+			<Target title="Debug - Linux">
+				<Option output="LandExplorer" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DDEBUG" />
+					<Add option='-DSDL_ASSERT_LEVEL=&quot;2&quot;' />
+				</Compiler>
+				<Linker>
+					<Add library="SDL2" />
+					<Add library="GL" />
+					<Add library="FMOD\lib\libfmodex64.so" />
+					<Add library="xml2" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wextra" />
+			<Add option="-Wall" />
+			<Add directory="SDL/include" />
+			<Add directory="FMOD/inc" />
+		</Compiler>
+		<Linker>
+			<Add library="SDL2_image" />
+			<Add library="SDL2_ttf" />
+			<Add library="SDL\lib\libxml2.lib" />
+			<Add directory="SDL/lib" />
+			<Add directory="FMOD/lib" />
+		</Linker>
+		<Unit filename="ai/AI.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ai/AI.h" />
+		<Unit filename="common.h" />
+		<Unit filename="components.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="components.h" />
+		<Unit filename="editor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="editor.h" />
+		<Unit filename="entities.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="entities.h" />
+		<Unit filename="entityModels.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="entityModels.h" />
+		<Unit filename="graphics/animation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="graphics/animation.h" />
+		<Unit filename="graphics/chunkRenderer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="graphics/chunkRenderer.h" />
+		<Unit filename="graphics/displayInfo.h" />
+		<Unit filename="graphics/graphics.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="graphics/graphics.h" />
+		<Unit filename="graphics/opengl/baseShader.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="graphics/opengl/baseShader.h" />
+		<Unit filename="graphics/opengl/chunckBuilding.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="graphics/opengl/chunckBuilding.h" />
+		<Unit filename="graphics/opengl/chunckRendering.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="graphics/opengl/chunckRendering.h" />
+		<Unit filename="graphics/opengl/chunckShader.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="graphics/opengl/chunckShader.h" />
+		<Unit filename="graphics/opengl/framebuffer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="graphics/opengl/framebuffer.h" />
+		<Unit filename="graphics/opengl/oglCommon.h" />
+		<Unit filename="graphics/opengl/renderer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="graphics/opengl/renderer.h" />
+		<Unit filename="graphics/opengl/shader.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="graphics/opengl/shader.h" />
+		<Unit filename="graphics/opengl/texture.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="graphics/opengl/texture.h" />
+		<Unit filename="graphics/opengl/textureGroup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="graphics/opengl/textureGroup.h" />
+		<Unit filename="graphics/renderers/backgroundRenderer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="graphics/renderers/backgroundRenderer.h" />
+		<Unit filename="graphics/renderers/creditsRenderer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="graphics/renderers/creditsRenderer.h" />
+		<Unit filename="graphics/renderers/editorRenderer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="graphics/renderers/editorRenderer.h" />
+		<Unit filename="graphics/renderers/mapRenderer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="graphics/renderers/mapRenderer.h" />
+		<Unit filename="graphics/renderers/menuRenderer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="graphics/renderers/menuRenderer.h" />
+		<Unit filename="graphics/renderers/playerInterfaceRenderer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="graphics/renderers/playerInterfaceRenderer.h" />
+		<Unit filename="graphics/shaders/texture.frag" />
+		<Unit filename="graphics/shaders/texture.vert" />
+		<Unit filename="graphics/texturePack.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="graphics/texturePack.h" />
+		<Unit filename="graphics/textureSet.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="graphics/textureSet.h" />
+		<Unit filename="keyStates.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="keyStates.h" />
+		<Unit filename="landExplorer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="landExplorer.h" />
+		<Unit filename="level.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="level.h" />
+		<Unit filename="lightSource.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lightSource.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="map.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="map.h" />
+		<Unit filename="mathUtility.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mathUtility.h" />
+		<Unit filename="modeUpdateResult.h" />
+		<Unit filename="physics/collisions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="physics/collisions.h" />
+		<Unit filename="physics/sweepAndPrune.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="physics/sweepAndPrune.h" />
+		<Unit filename="physics/worldConstraints.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="physics/worldConstraints.h" />
+		<Unit filename="player/inventory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="player/inventory.h" />
+		<Unit filename="player/item.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="player/item.h" />
+		<Unit filename="player/playerController.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="player/playerController.h" />
+		<Unit filename="sound.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sound.h" />
+		<Unit filename="terrain/bloc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="terrain/bloc.h" />
+		<Unit filename="terrain/blockTypes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="terrain/blockTypes.h" />
+		<Unit filename="terrain/buildingGen.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="terrain/buildingGen.h" />
+		<Unit filename="terrain/caves.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="terrain/caves.h" />
+		<Unit filename="terrain/heightProfile.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="terrain/heightProfile.h" />
+		<Unit filename="terrain/module.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="terrain/module.h" />
+		<Unit filename="terrain/terrain.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="terrain/terrain.h" />
+		<Unit filename="terrain/terrainGeneration.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="terrain/terrainGeneration.h" />
+		<Unit filename="terrain/water.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="terrain/water.h" />
+		<Unit filename="timer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="timer.h" />
+		<Unit filename="ui/button.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ui/button.h" />
+		<Unit filename="ui/credits.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ui/credits.h" />
+		<Unit filename="ui/label.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ui/label.h" />
+		<Unit filename="ui/layout.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ui/layout.h" />
+		<Unit filename="ui/menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ui/menu.h" />
+		<Unit filename="ui/slider.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ui/slider.h" />
+		<Unit filename="vector.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vector.h" />
+		<Unit filename="xmlTools.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="xmlTools.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,29 @@
+# CMake
+build/
+
+# IDE
+.idea
+*.vs
+*.userprefs
+*.csproj
+*.suo
+*.user
+*.tlog
+*.opendb
+*.db
+*.sln
+
+# Temp files
+*~
+~*
+
+# Compiled Object files
+*.o
+*.obj
+
+# Debugging files
+*.pbd
+*.exp
+
+#MacOS cache
+*.DS_Store
